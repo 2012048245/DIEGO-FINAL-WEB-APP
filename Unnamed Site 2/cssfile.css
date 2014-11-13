@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "UTF-8";
+
+header, footer, main, nav, p
+{
+	display: block;
+}
+
+html, body, h1, h2, h3, p, a, ul, li
+header, footer, main, nav
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    <font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+p1 {
+	font-family: "Century Gothic";
+    font-size: 12px;
+}
+
+p6 {
+	font-family: "Century Gothic";
+	font-size: 8px;
+	color: Black;	
+}
+
+select {
+	display: inline-block;
+	padding: q0px;
+	position: relative;
+}
+
+.select-div {
+	display: inline-block;
+	padding: q0px;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 12px;
+	color: Black;
+}
+
+select > option {
+   background: White;
+}
+
+body
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D8D8D8;
+	font-family: Century Gothic; 
+	font-size: 15px;
+}
+
+
+nav
+{
+	background-color: grey;
+	padding: 5px;
+	margin: 1px;
+	margin-top: 15px;
+	width: auto;
+	/* float: left; */
+}
+
+a
+{
+	color: black;
+}
+
+
+main
+{
+	width: 640px;
+	float: right;
+}
+
+div {
+    width: auto;
+    padding: 10px;
+    margin: 0; 
+}
+
+.boxed {
+	width: 300px;
+	height: 25px;
+	border: 1px solid black;
+	float: left;
+}
+
+ul {
+	/*list-style-type:  */
+	margin: 5;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: left;
+	word-spacing: inherit;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #A4A4A4;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    /*text-transform: uppercase; */
+}
+
+a:hover, a:active {
+    background-color: #585858;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    /*border: 1px solid #0000ff; */
+    height: auto;
+    width: auto;
+    float: right;
+	position: fixed;
+	opacity: 0.4;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    /*border: 1px solid #ffffff; */
+}
+
+div.transbox
+{
+  width: 300px;
+  height: auto;
+  margin: 0px 0px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transboxii
+{
+  width: 400px;
+  height: auto
+  margin: 30px 50px;
+  background-color: #58ACFA;
+  border: 1px solid black;
+  border-style: solid;
+  box-sizing: border-box;
+  opacity:0.9;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p
+{
+  margin: 30px 40px;
+  font-weight: bold;
+  color: #000000;
+}
